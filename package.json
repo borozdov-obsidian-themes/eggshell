@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-eggshell",
+  "private": true,
+  "description": "Warm cream editorial: whisper-weight headlines on eggshell paper, black ink, and two sparks — violet and ember orange — for what you touch.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
